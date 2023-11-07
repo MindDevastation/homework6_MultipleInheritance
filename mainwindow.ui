@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>703</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout_11">
+      <item row="0" column="4">
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="2" column="0">
+           <widget class="QLabel" name="sunameL_5">
+            <property name="text">
+             <string>Surname</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="salaryL_5">
+            <property name="text">
+             <string>Salary / h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QDateEdit" name="bDateEd_5"/>
+          </item>
+          <item row="6" column="1">
+           <widget class="QDateEdit" name="lWorkDateEd_5"/>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="salaryEd_5"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="teleEd_5"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="nameEd_5"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="nameL_5">
+            <property name="text">
+             <string>Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="bDateL_5">
+            <property name="text">
+             <string>Birth Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="lWorkL_5">
+            <property name="text">
+             <string>Last Work</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="lWorkDateL_5">
+            <property name="text">
+             <string>Last Work Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lWorkEd_5"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="profSkillsL_5">
+            <property name="text">
+             <string>Professional Skills</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="surnameEd_5"/>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Empleyee 3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="teleL_5">
+            <property name="text">
+             <string>Telephone Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="profSkillsEd_5"/>
+          </item>
+          <item row="9" column="0" colspan="2">
+           <widget class="QPushButton" name="EditE1_5">
+            <property name="text">
+             <string>Edit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="nameS_5">
+          <property name="text">
+           <string>Name: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="surnameS_5">
+          <property name="text">
+           <string>Surname: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="bDateS_5">
+          <property name="text">
+           <string>Birth Date :</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="teleS_5">
+          <property name="text">
+           <string>Telephone Number: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="lWorkS_5">
+          <property name="text">
+           <string>Last Work: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="lWorkDateS_5">
+          <property name="text">
+           <string>Last Work Date: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="salaryS_5">
+          <property name="text">
+           <string>Salary / h: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="profSkillsS_5">
+          <property name="text">
+           <string>Professional Skills: </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="2">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="2" column="0">
+           <widget class="QLabel" name="sunameL_3">
+            <property name="text">
+             <string>Surname</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="salaryL_3">
+            <property name="text">
+             <string>Salary / h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QDateEdit" name="bDateEd_3"/>
+          </item>
+          <item row="6" column="1">
+           <widget class="QDateEdit" name="lWorkDateEd_3"/>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="salaryEd_3"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="teleEd_3"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="nameEd_3"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="nameL_3">
+            <property name="text">
+             <string>Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="bDateL_3">
+            <property name="text">
+             <string>Birth Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="lWorkL_3">
+            <property name="text">
+             <string>Last Work</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="lWorkDateL_3">
+            <property name="text">
+             <string>Last Work Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lWorkEd_3"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="profSkillsL_3">
+            <property name="text">
+             <string>Professional Skills</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="surnameEd_3"/>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Empleyee 2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="teleL_3">
+            <property name="text">
+             <string>Telephone Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="profSkillsEd_3"/>
+          </item>
+          <item row="9" column="0" colspan="2">
+           <widget class="QPushButton" name="EditE1_3">
+            <property name="text">
+             <string>Edit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="nameS_3">
+          <property name="text">
+           <string>Name: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="surnameS_3">
+          <property name="text">
+           <string>Surname: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="bDateS_3">
+          <property name="text">
+           <string>Birth Date :</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="teleS_3">
+          <property name="text">
+           <string>Telephone Number: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="lWorkS_3">
+          <property name="text">
+           <string>Last Work: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="lWorkDateS_3">
+          <property name="text">
+           <string>Last Work Date: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="salaryS_3">
+          <property name="text">
+           <string>Salary / h: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="profSkillsS_3">
+          <property name="text">
+           <string>Professional Skills: </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="2" column="0">
+           <widget class="QLabel" name="sunameL">
+            <property name="text">
+             <string>Surname</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="salaryL">
+            <property name="text">
+             <string>Salary / h</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QDateEdit" name="bDateEd"/>
+          </item>
+          <item row="6" column="1">
+           <widget class="QDateEdit" name="lWorkDateEd"/>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="salaryEd"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="teleEd"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="nameEd"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="nameL">
+            <property name="text">
+             <string>Name</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="bDateL">
+            <property name="text">
+             <string>Birth Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="lWorkL">
+            <property name="text">
+             <string>Last Work</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="lWorkDateL">
+            <property name="text">
+             <string>Last Work Date</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lWorkEd"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="profSkillsL">
+            <property name="text">
+             <string>Professional Skills</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="surnameEd"/>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Empleyee 1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="teleL">
+            <property name="text">
+             <string>Telephone Number</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="profSkillsEd"/>
+          </item>
+          <item row="9" column="0" colspan="2">
+           <widget class="QPushButton" name="EditE1">
+            <property name="text">
+             <string>Edit</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="nameS">
+          <property name="text">
+           <string>Name: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="surnameS">
+          <property name="text">
+           <string>Surname: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="bDateS">
+          <property name="text">
+           <string>Birth Date :</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="teleS">
+          <property name="text">
+           <string>Telephone Number: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="lWorkS">
+          <property name="text">
+           <string>Last Work: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="lWorkDateS">
+          <property name="text">
+           <string>Last Work Date: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="salaryS">
+          <property name="text">
+           <string>Salary / h: </string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="profSkillsS">
+          <property name="text">
+           <string>Professional Skills: </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>703</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
